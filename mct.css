@@ -1,0 +1,89 @@
+body{
+    background-image: url("https://reverent-bose-df2ec0.netlify.app/lloyd-dirks-4SLz_RCk6kQ-unsplash.jpg");
+   
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+select{
+     padding: 10px;
+     outline: none;
+     border-radius: 10px;
+}
+option{
+    padding: 10px;
+}
+.option{
+    display: flex;
+    justify-content: center;
+}
+.seat{
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 20px;
+}
+.available{
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+ margin-top: 30px;
+  width: 150px;
+}
+.seleted{
+    background-color: yellowgreen;
+}
+.solded{
+    background-color: white;
+
+}
+.img{
+    margin-top: 30px;
+   text-align: center;
+}
+.rows{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+h3{
+    text-align: center;
+    
+    color: yellowgreen;
+   
+}
+.top{
+    border: 1px solid yellowgreen;
+    margin-left: 40%;
+    margin-right:40% ;
+
+
+}
+.bottom{
+    border: 1px solid yellowgreen;
+    margin-left: 30%;
+    margin-right:30% ;
+
+}
+.seat:not(.solded):hover {
+    cursor: pointer;
+    padding: 10px;
+    transform: scale(1.2);
+  }
+  .option .seat:not(.solded):hover {
+    cursor: default;
+   
+  }
+  .values{
+    text-align: center;
+  }
